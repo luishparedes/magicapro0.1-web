@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lector de Código de Barras</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Lector de Código de Barras</h1>
+  <video id="preview"></video>
+  <div id="product-form">
+    <input type="text" id="barcode" placeholder="Código de barras" readonly>
+    <input type="text" id="product-name" placeholder="Nombre del producto">
+    <input type="text" id="product-price" placeholder="Precio">
+    <button id="add-product">Agregar Producto</button>
+  </div>
+  <script src="https://unpkg.com/@zxing/library@latest"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
